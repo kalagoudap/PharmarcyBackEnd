@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/medicine
+    username: root
+    password: Kp9448280363@
+  jpa:
+    hibernate:
+      ddl-auto: update
